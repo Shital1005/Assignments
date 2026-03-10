@@ -18,9 +18,9 @@ console.log(amountOfMoney);
 let emailAddress:string="john.doe@example.com" 
 console.log(emailAddress);
 
-/*6. Coordinates of a location (latitude, longitude): 37.7749, -122.4194 
-let coordinates:number=(37.7749 -122.4194)
-console.log(coordinates);*/
+//6. Coordinates of a location (latitude, longitude): 37.7749, -122.4194 
+let coordinates:number[]=[37.7749,-122.4194]
+console.log(coordinates);
 
 //7. Person's marital status: true or false 
 let maritalStatus:boolean=false
@@ -38,9 +38,9 @@ console.log(favouritecolor);
 let currentYear:number=2023
 console.log(currentYear);
 
-/*11.Number of followers on a social media platform: 1,000,000 
-let followers:number= 1,000,000 
-console.log(followers);*/
+//.Number of followers on a social media platform: 1,000,000 
+let followers:string=" 1,000,000"
+console.log(followers);
 
 //12. Rating of a movie: 7.5 
 let movieRating:number=7.5
@@ -58,9 +58,9 @@ console.log(bookTitle);
 let numberOfEmployee:number=500
 console.log(numberOfEmployee);
 
-/*16. Time of an event: 2:30 PM 
-let eventTime:any=(2.30 PM)
-console.log(eventTime);*/
+//. Time of an event: 2:30 PM 
+let eventTime:string="2.30PM"
+console.log(eventTime);
 
 //17. Name of a country: "United States"
 let country:string="United States"

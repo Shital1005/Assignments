@@ -21,10 +21,8 @@ if (creditScore>=750) {
         console.log (" loan to be considered");
     if (isEmployed)
     {
-        if (debtToIncomeRatio<=40)
-            console.log("loan is approved.")
-         if (debtToIncomeRatio>=40)
-            console.log("loan is denied")
+        if (debtToIncomeRatio<=40){
+            console.log("loan is approved.")}
         
         else {console.log ("loan is denied due to unemployment");
 
