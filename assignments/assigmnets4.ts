@@ -14,23 +14,18 @@ for (let i = 0; i < amountOfTranscation.length; i++) {
         console.log("find the suspicious transcation", amountOfTranscation[i]);
         suspicisousTranscationAmount++;
     }
-}
-
-for (let i = 0; i < amountOfTranscation.length; i++) {
     if (amountOfTranscation[i] > 0) {
         // console.log("find the amount of credit", amountOfTranscation[i]);
         // totalCreditAmount++;
         totalCreditNumber++;
     }
-
-}
-for (let i = 0; i < amountOfTranscation.length; i++) {
     if (amountOfTranscation[i] < 0) {
         // console.log("finding the amount of debit", amountOfTranscation[i]);
         // totaldebitAmount++;
         totaldebitNumber++;
     }
 }
+
 
 
 console.log("total number of credit",totalCreditNumber);
