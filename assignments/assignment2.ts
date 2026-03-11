@@ -1,7 +1,13 @@
+/*
 const creditScore:number=720;
 const income:number=55000.0;
 const isEmployed:boolean=true;
-const debtToIncomeRatio:number=35.0;
+const debtToIncomeRatio:number=35.0;*/
+
+let creditScore:number=720;
+let income:number=55000.0;
+let isEmployed:boolean=true;
+let debtToIncomeRatio:number=35.0;
 /*
 function loaneligiblity(){
 creditScore
@@ -9,7 +15,7 @@ income
 isEmployed
 debtToIncomeRatio
 };*/
-{
+
 
 if (creditScore>=750) {
     console.log("loan is automatically approved");
@@ -35,5 +41,4 @@ if (creditScore>=750) {
 }
 else {
 console.log("Loan is denied due to low credit score");
-}
 }
