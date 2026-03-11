@@ -15,22 +15,21 @@ for (let i = 0; i < amountOfTranscation.length; i++) {
         suspicisousTranscationAmount++;
     }
     if (amountOfTranscation[i] > 0) {
-        // console.log("find the amount of credit", amountOfTranscation[i]);
-        // totalCreditAmount++;
+        totalCreditAmount += amountOfTranscation[i]
         totalCreditNumber++;
     }
     if (amountOfTranscation[i] < 0) {
-        // console.log("finding the amount of debit", amountOfTranscation[i]);
-        // totaldebitAmount++;
+        totaldebitAmount += amountOfTranscation[i]
         totaldebitNumber++;
     }
+    finalamountreamining+=amountOfTranscation[i];
 }
 
 
 
-console.log("total number of credit",totalCreditNumber);
-console.log("total number of debit",totaldebitNumber);
-console.log(totalCreditAmount);
-console.log(totaldebitAmount);
-console.log(finalamountreamining);
-console.log("total number of suspiciousTransaction",suspicisousTranscationAmount);
+console.log("total number of credit", totalCreditNumber);
+console.log("total number of debit", totaldebitNumber);
+console.log("total credited amount", totalCreditAmount);
+console.log("total debited amount", totaldebitAmount);
+console.log("total reamining amount in a bank account",finalamountreamining);
+console.log("total number of suspiciousTransaction", suspicisousTranscationAmount);
