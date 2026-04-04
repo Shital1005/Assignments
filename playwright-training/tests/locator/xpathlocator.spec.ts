@@ -12,14 +12,25 @@ import { test } from '@playwright/test';
 
 test("Xpath Locator", async ({ page }) => {
     await page.goto("https://accounts.creatio.com/login/alm")
+
+
     //To Locate the Creatio logo by using syantx 1
     await page.locator('//img[@alt="logo"]')
+    //To Locate the Business email text box by using syantx 1
+    await page.locator('//input[@aria-label="Business email"]')
 
     // to locate the This website uses cookies by using syantx 2
     await page.locator('//div[text()=("This website uses cookies")]')
 
+    // to locate the Business Email label  by using syantx 2
+    await page.locator('//label[text()="Business email"]')
+
+
     //To Locate  the Creatio logo by using syantx 3
     await page.locator('//img[contains(@alt,"log")]')
+
+    //To Locate  the Forgot password by using syantx 3
+    await page.locator('//a[contains(@class,"forgot")]')
 
     //to locate the Necessary button by using syantx 3
     await page.locator('//input[contains(@name=Endpoint)]')
@@ -30,11 +41,20 @@ test("Xpath Locator", async ({ page }) => {
     //to locate the cookiesbot.com by using synatx 4
     await page.locator('//a[starts-with(@aria-label,"Cookiebot ")]')
 
+    //To Locate  the Forgot password by using syantx 4
+    await page.locator('//a[starts-with(@class,"forgot")]')
+
     //to locate the This website uses cookies by using synatx 5
     await page.locator('//div[contains(text(),"This website uses cookies")]')
 
+    //To Locate  the Forgot password by using syantx 5
+    await page.locator('//a[contains(text (),"Forgot password")]')
+
     //to locate the This website uses cookies by using synatx 6
     await page.locator('//div[starts-with(text(),"This ")]')
+    
+    //To Locate  the Forgot password by using syantx 6
+    await page.locator('//a[starts-with(text (),"Forgot ")]')
 
     //to loacte the This website uses cookies by using syntax 7
     await page.locator('//div[@class="CybotCookiebotDialogBodyContentHeading" and text()="This website uses cookies"]')
