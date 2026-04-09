@@ -1,0 +1,21 @@
+{
+    "app": {
+        "url": "https://accounts.creatio.com/login/alm",
+        "title": "Log in | creatio",
+        "username": "Shitalmate1005@gmail.com",
+        "Password": "Amruta@@2308",
+    },
+    "api": {
+        "endpoint":"https://api.example.com",
+        "key":"your_api_key"
+    },
+    "db": {
+        "host": "localhost",
+        "port": "350",
+        "user":"uername",
+        "Password":"Password",
+        "database":"spn_Vas_05"
+    
+    },
+    "ollma": {}
+}
